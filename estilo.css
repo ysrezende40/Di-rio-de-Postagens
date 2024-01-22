@@ -76,7 +76,7 @@ span{
 .enviar:active {
     transform: scale(0.95); 
 }
-/* inicio da estilizaçao do form de criar uma tarefa */
+/* fim da estilizaçao do form de criar uma tarefa */
 
 
 /* inicio da estilização do form de selecionar o perfil */
@@ -207,7 +207,7 @@ label {
 /* fim da estilização do form de cria um novo perfil */
 
 
-
+/* inicio da estilização da lista de post */
 .post {
     text-align: center;
     margin-top: 60px;
@@ -261,6 +261,9 @@ label {
     background-color: #3498db;
     color: white;
 }
+
+
+/* fim  da estilização da lista de post */
 
 @media screen and (max-width: 320px) {
     .botoesdotopo {
