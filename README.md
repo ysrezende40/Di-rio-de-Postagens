@@ -1,13 +1,13 @@
 # Diario-de-Postagens
 Desenvolvimento Focado na Compreensão do CRUD com JavaScript.
-[capa]("imagens/Capa.jpeg")
+[capa]("Imagens/capa.jpeg")
 
 
 ## Descrição
 
 Este projeto visa proporcionar uma experiência prática e educativa na implementação do CRUD (Create, Read, Update, Delete) utilizando HTML, CSS e JavaScript. A aplicação consiste em uma única página onde o usuário pode criar um perfil e começar a fazer postagens, com a capacidade de editar e apagar essas postagens.
 
-[capa-post]("imagens/Capa-post.jpeg")
+[capa-post]("Imagens/Capa-post.jpeg")
 
 ## Funcionalidades
 - Criação de Perfil: Os usuários podem criar seus perfis para começar a fazer postagens.
