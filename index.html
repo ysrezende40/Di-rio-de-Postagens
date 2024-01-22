@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X dos cria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+</head>
+<body>
+
+             
+
+    <form class="formCriaPost">
+        <input name="campoEntrada" class="campoEntrada" type="text">
+        <button type="submit" class="enviar">Enviar</button>
+    </form>
+
+    <h2 id="H1-criador" class="H2-criador"></h2>
+
+    <div class="post">
+        <ul class="listaDePost">
+            <li class="li-post"></li>
+            <li class="li-post"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        
+        </ul>
+        
+    </div>
+
+    <input class="textoParaEdicao" type="text">
+    <button class="salvar" >CONFIRMAR</button>
+
+   <div class="botoesdotopo">
+        <button class="Botão-de-perfil" onclick="ValidaFormularioPerfil()"><i class="fas fa-user"></i> PERFIL</button>
+        <button class="Botão-de-cria-perfil" onclick="MostraFormulario(event)"><i class="fas fa-plus "></i> CRIAR PERFIL</button>
+   </div> 
+   
+
+   <div class="Caixa-perfil oculto">
+   
+        <form class="Selecionar-Perfil" onsubmit="return ValidaFormularioPerfil()">
+            <label for="ysaac">ysaac rezende</label>
+            <input id="ysaac" name="perfil" type="radio"><br>
+            
+            <label for="lucas">lucas</label>
+            <input id="lucas" name="perfil" type="radio"><br>
+            
+            <button class="btn-seleciona-o-perfil" type="submit">Selecionar Perfil</button><br><br>
+
+            <span class="informacao"></span>
+        </form>
+   </div> 
+ 
+   <div class="caixa-cria-novo-perfil oculto-cria-perfil">
+        <form class="Cria-perfil-novo" onsubmit="CriaPerfil(event)">
+            <label class="novo-perfil" for="novo-perfil">DIGITE SEU NOME</label>
+            <input class="novo-perfil input-cria-perfil" name="novo-perfil" type="text">
+            <button class="btn-cria-perfil" type="submit">Enviar</button>
+            <span class="informacao-cria-perfil"></span>
+
+    </form>
+   </div>
+   
+
+
+</body>
+
+  
+    
+    
+   
+
+
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
